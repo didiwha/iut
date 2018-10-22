@@ -1,0 +1,62 @@
+#vendeurs {
+    float : left ;
+    width : 30% ;
+}
+#produits {
+    float : left ;
+    background-color : #FFE568 ;
+    border : 1px solid violet ;
+}
+#produits tr td:first-child, tr td:last-child {
+    text-align : right ;
+}
+#services {
+    float : right ;
+    width : 20%;
+    border : 1px solid black ;
+    background-color : darkgrey ;
+    color : white ;
+    text-align : center ;
+}
+#contact {
+    clear : both ;
+}
+#lesMeilleursVendeurs tr.bestOf {
+
+    color : green;
+}
+tr.bestOf:first-child{
+    font-weight: bold;
+}
+
+.worstOf {
+    color : red;
+}
+
+#vendeurs td:nth-child(3)::after, #produits td:nth-child(2)::after{
+    content:"€"
+}
+tr:nth-child(even){
+	color: blue;
+}
+section(id="services")p{
+	color:yellow;
+}
+section(id="contact")p{
+	width:10%;
+}
+#produits, #services {
+display: block;
+}
+
+#contact {
+	float :right;
+}
+#contact {
+	display :block;
+}
+
+
+
+
+

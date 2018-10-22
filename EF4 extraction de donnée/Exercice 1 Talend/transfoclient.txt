@@ -1,0 +1,110 @@
+8;Toggle & Myerson Ltd;618 Sheriden rd.;Florida;18-09-2018;01-01-1900
+62;BBQ Smith's Tex Mex;1101 Deerfield Place;Florida;18-09-2018;01-01-1900
+63;Pivot Point College;1547 Knolwood Rd.;Florida;18-09-2018;01-01-1900
+64;Highland Woods City Hall;430 Oakland Drive;Florida;18-09-2018;01-01-1900
+72;Michael Montgomery Hair Saloon;1077 Court Ave.;Florida;18-09-2018;01-01-1900
+108;Air India;135 Lakewood place;Florida;18-09-2018;01-01-1900
+151;Lickmen Restoration;1875 Roger Williams Ave.;Florida;18-09-2018;01-01-1900
+168;Camp Oconomowoc;1245 Eastwood;Florida;18-09-2018;01-01-1900
+205;Air France;42 Valley Rd.;Florida;18-09-2018;01-01-1900
+350;Truck-X Muffler Repair;3487 Green Bay Rd.;Florida;18-09-2018;01-01-1900
+357;Ampro Office Team Ltd.;3059 Priscilla Court;Florida;18-09-2018;01-01-1900
+434;North West Gas Co.;3385 University Ave.;Florida;18-09-2018;01-01-1900
+512;Flinn Mosquito and Pest Contro;1882 St. Johns;Florida;18-09-2018;01-01-1900
+622;MedicServe Medical Supply;865 Old Tall Tree Lane;Florida;18-09-2018;01-01-1900
+705;Truck-X Muffler Repair;1077 Court Ave.;Florida;18-09-2018;01-01-1900
+750;Bill's Dive Shop;201-C Frontage Rd.;Florida;18-09-2018;01-01-1900
+768;Schnitzer Denist College;726 White Oaks Ave.;Florida;18-09-2018;01-01-1900
+776;Gourmet the Frog;1777 balsamic Ave.;Florida;18-09-2018;01-01-1900
+808;Pasifico Inc.;43078 Kennedy Dr.;Florida;18-09-2018;01-01-1900
+868;janice Mann Accounting Service;1660 Park Ave.;Florida;18-09-2018;01-01-1900
+873;Marks, Marks, and Kaplan Ltd.;1949 Cloverdale Rd.;Florida;18-09-2018;01-01-1900
+876;Dean Barnett Furniture Repair;616 Cobblestone Cir.;Florida;18-09-2018;01-01-1900
+999;Lickmen Restoration;1875 Roger Williams Ave.;Florida;18-09-2018;01-01-1900
+1034;Moveit Motercycle Service;242 Ashland Ave.;Florida;18-09-2018;01-01-1900
+1044;Sigman and Freud Psychiatry;1915 Lewis Ln.  Apt 13;Florida;18-09-2018;01-01-1900
+1059;Dean Grant Buick and Crysler;1715 Chicago Ave.;Florida;18-09-2018;01-01-1900
+1072;Woodworks Co.;218 Oakridge Ave.;Florida;18-09-2018;01-01-1900
+1087;Quad City Cleaning;10 Marquette Rd.;Florida;18-09-2018;01-01-1900
+1139;Glenwood Credit Union;12 Skokie Valley Rd.;Florida;18-09-2018;01-01-1900
+1299;Cradle the Call;12 Broadview Lane;Florida;18-09-2018;01-01-1900
+1300;Derbin Contracting Services;654 Walnut Rd.;Florida;18-09-2018;01-01-1900
+1324;North Shore Appliance Service;445 Park Ave.;Florida;18-09-2018;01-01-1900
+1326;George Lee Antiques;12 Broadview Lane;Florida;18-09-2018;01-01-1900
+1355;Cosmo Skin Care Center;2678 Sheridan Rd.;Florida;18-09-2018;01-01-1900
+1393;Got It All Electronics Supply;4467 Sheridan Rd.;Florida;18-09-2018;01-01-1900
+1401;Hi-Land Art & Frame;2024 St.Johns Ave.;Florida;18-09-2018;01-01-1900
+1415;Camp Stuff;368 Woodland Rd.;Florida;18-09-2018;01-01-1900
+1438;K L Consulting;1875 Roger Williams Ave.;Florida;18-09-2018;01-01-1900
+1440;Derbin Contracting Services;355 Golf Rd.;Florida;18-09-2018;01-01-1900
+1599;Dean Grant Buick and Crysler;445 Park Ave.;Florida;18-09-2018;01-01-1900
+1687;Darcy Frame and Matting Servic;1235 Easton Rd.;Florida;18-09-2018;01-01-1900
+1701;Highland Woods City Hall;244 Briar Ln;Florida;18-09-2018;01-01-1900
+1708;American Deli Workers Union;1155 Ridgewood Drive;Florida;18-09-2018;01-01-1900
+1753;Green Shoes Corp.;1799 Rosemary Way;Florida;18-09-2018;01-01-1900
+1782;Lickmen Restoration;1482 Concorde Circle;Florida;18-09-2018;01-01-1900
+1796;Eva Galler Galleries Inc.;1547 Vine;Florida;18-09-2018;01-01-1900
+1861;Camp Stuff;1714 Clifton Rd.;Florida;18-09-2018;01-01-1900
+1892;Hibbard Road Suppliers;671 Blackstone Ave.;Florida;18-09-2018;01-01-1900
+1941;Kermit the Pet Shop;120 high St.;Florida;18-09-2018;01-01-1900
+1958;Cotton Thumb Ltd.;218 Oakridge Ave.;Florida;18-09-2018;01-01-1900
+2018;Dapper's Antiques;21 Lakeview Terrace #2312;Florida;18-09-2018;01-01-1900
+2098;Brand Y Creative Services;2510 Crain;Florida;18-09-2018;01-01-1900
+2133;Acturial Enterprises Ltd.;965 Marion Place Apt. 65C;Florida;18-09-2018;01-01-1900
+2181;Lake Shore Publishing;1920 Sunnyside Ave.;Florida;18-09-2018;01-01-1900
+2188;Marks, Marks, and Kaplan Ltd.;406 Trinity Ct.;Florida;18-09-2018;01-01-1900
+2190;Morton Roofing and Siding;2644 Princeton Ln.;Florida;18-09-2018;01-01-1900
+2448;Dapper's Antiques;3150 Skokie Valley Rd.;Florida;18-09-2018;01-01-1900
+2554;First National Bank of Ottowa;22 Clay rd.;Florida;18-09-2018;01-01-1900
+2579;Parkway Auto Body;937 Judson Ave.;Florida;18-09-2018;01-01-1900
+2647;Bill's Dive Shop;220 Vine Ave.;Florida;18-09-2018;01-01-1900
+2689;Tub's Furniture Store;1658 Second St.;Florida;18-09-2018;01-01-1900
+2690;Air Mexico;865 Old Tall Tree Lane;Florida;18-09-2018;01-01-1900
+2719;Air Indonesia;1795 Lake Cook Rd.;Florida;18-09-2018;01-01-1900
+2738;Myles Building Consultants;4467 Sheridan Rd.;Florida;18-09-2018;01-01-1900
+2752;Derbin Contracting Services;2045 St. johns Ave.;Florida;18-09-2018;01-01-1900
+2786;Highland Woods City Hall;456 Grossman Ln.;Florida;18-09-2018;01-01-1900
+2806;Schnitzer Denist College;302-A Crestwood Village Rd.;Florida;18-09-2018;01-01-1900
+2828;Brand Y Creative Services;3160 Summit Ave.;Florida;18-09-2018;01-01-1900
+2831;Truck-X Muffler Repair;1619 Judson Ave. Apt #34B;Florida;18-09-2018;01-01-1900
+2836;New Dehli Auto Exchange;2032 Northbrook Ct.;Florida;18-09-2018;01-01-1900
+3166;Nina's Snow Plowing;512 Hill;Florida;18-09-2018;01-01-1900
+3306;Marks, Marks, and Kaplan Ltd.;224  Highwood Ave.;Florida;18-09-2018;01-01-1900
+3336;Bernhardt Ltd.;1777 balsamic Ave.;Florida;18-09-2018;01-01-1900
+3337;Moveit Motercycle Service;865 Old Tall Tree Lane;Florida;18-09-2018;01-01-1900
+3342;Crossroads Construction, Inc.;2936 Arlington Ave.;Florida;18-09-2018;01-01-1900
+3384;Green Bay Travel Services;139 Bay Colony Dr.;Florida;18-09-2018;01-01-1900
+3423;Bill's Dive Shop;2045 St. johns Ave.;Florida;18-09-2018;01-01-1900
+3456;Flinn Mosquito and Pest Contro;302-A Crestwood Village Rd.;Florida;18-09-2018;01-01-1900
+3460;American Deli Workers Union;5518 Madison St.;Florida;18-09-2018;01-01-1900
+3545;Green Bay Travel Services;12 Skokie Valley Rd.;Florida;18-09-2018;01-01-1900
+3611;Metro Appliance Service;1752 Clinton Ave.;Florida;18-09-2018;01-01-1900
+3694;Doll House Rock;1233 Arbor Rd.;Florida;18-09-2018;01-01-1900
+3737;Palmer Golf Supplies;1234 Devonshire Court;Florida;18-09-2018;01-01-1900
+3752;Air India;1715 Chicago Ave.;Florida;18-09-2018;01-01-1900
+3835;Nitelites Party Rental;231 Sheriden Rd.;Florida;18-09-2018;01-01-1900
+3921;Ampro Office Team Ltd.;2032 Northbrook Ct.;Florida;18-09-2018;01-01-1900
+3924;Block Boats and Lures;242 Ashland Ave.;Florida;18-09-2018;01-01-1900
+3993;John G. Hartling Ltd.;2024 St.Johns Ave.;Florida;18-09-2018;01-01-1900
+4011;Rythmics Ltd.;210 Cresant Rd.;Florida;18-09-2018;01-01-1900
+4081;North Shore Appliance Service;511 Maple Ave.  Apt. 1B;Florida;18-09-2018;01-01-1900
+4108;Morton Roofing and Siding;1436 Waverly Rd.;Florida;18-09-2018;01-01-1900
+4143;Cradle the Call;2644 Princeton Ln.;Florida;18-09-2018;01-01-1900
+4173;Bernhardt Ltd.;12 Fort Sheriden Ave.;Florida;18-09-2018;01-01-1900
+4192;New Dehli Auto Exchange;218 Oakridge Ave.;Florida;18-09-2018;01-01-1900
+4240;Crosstracks Car Wash;2267 Anderson Lane;Florida;18-09-2018;01-01-1900
+4247;Michael Montgomery Hair Saloon;1799 Rosemary Way;Florida;18-09-2018;01-01-1900
+4250;John G. Hartling Ltd.;3181 Barkwood Ct.;Florida;18-09-2018;01-01-1900
+4259;janice Mann Accounting Service;3059 Priscilla Court;Florida;18-09-2018;01-01-1900
+4324;Caranisco Homes;511 Maple Ave.  Apt. 1B;Florida;18-09-2018;01-01-1900
+4348;North West Gas Co.;310 Walker Ave.;Florida;18-09-2018;01-01-1900
+4355;Lake Shore Beaches;3148 cottonwood Ct.;Florida;18-09-2018;01-01-1900
+4440;Metro Appliance Service;1245 Eastwood;Florida;18-09-2018;01-01-1900
+4490;Keep Cool Air Conditioner Repa;1839 McCraren Rd.;Florida;18-09-2018;01-01-1900
+4532;Morgan Construction Co;1550 Ridge Rd.;Florida;18-09-2018;01-01-1900
+4542;AA Advertising;2045 St. johns Ave.;Florida;18-09-2018;01-01-1900
+4588;Sigman and Freud Psychiatry;2644 Princeton Ln.;Florida;18-09-2018;01-01-1900
+4692;PGS Associates;1234 Devonshire Court;Florida;18-09-2018;01-01-1900
+4759;Gourmet the Frog;970 Vilas Circle;Florida;18-09-2018;01-01-1900
+4934;Doerner's Awnings and Canopies;839 Burton Ave;Florida;18-09-2018;01-01-1900
+4973;Truck-X Muffler Repair;465 Stratford Rd.;Florida;18-09-2018;01-01-1900

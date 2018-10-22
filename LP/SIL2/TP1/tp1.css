@@ -1,0 +1,47 @@
+body{
+	color:#3C8DC4;
+	font-size:14;
+	font-family:"Times New Roman", Georgia, Serif;
+	background-color:yellow;
+}
+
+body header{
+	margin:20px;
+	margin-right:0px;
+	font-weight:bold;
+}
+
+section{
+	margin:20px;
+}
+section header{
+	margin-bottom:0;
+	display:inline-block;
+	font-size:20px;
+	font-weight:bold;
+	color:#0FC9F0;
+	background-color:pink;
+	
+}
+
+#tableau .caseCochee{
+	background-color:green;
+}
+#tableau table{
+	border-collapse:collapse;
+}
+#tableau td{
+	width:150px;
+	height:30px;
+	border-width:2px;
+	border-color:black;
+	border-style:solid;
+	border-spacing:0px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+#tableau tr:first-child td:first-child {
+	border:none;
+}

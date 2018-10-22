@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<title>IUT2 Grenoble - LP SIL - EF4</title>
+<meta name="author" content="Laurent Bonnaud" />
+<link href="./IUT2 Grenoble - LP SIL - EF4_files/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<p>Université Pierre Mendès France - IUT2 - Département informatique<br />
+Licence Professionnelle SIL - EF4</p>
+
+<h1>TP - Ethernet et IP</h1>
+
+<hr />
+
+<p> L'objectif de ce TP est une première approche des réseaux Ethernet et IP à
+travers la manipulation de divers équipements.</p>
+
+<hr />
+
+<h2>Paramètres réseau d'une station au niveau Ethernet</h2>
+
+<h3>Aspect matériel</h3>
+
+<p>L'adresse Ethernet d'une station (aussi appelée adresse physique ou adresse
+MAC) est fixée dans sa carte réseau (CIR, <em>NIC</em> en anglais) avant même
+qu'un système d'exploitation soit chargé.  Pour illustrer ce fait, effectuer la
+manipulation suivante:</p>
+
+<ol>
+  <li>Configurer le BIOS de votre portable pour booter par le réseau (PXE). </li>
+  <li>Débrancher son câble Ethernet.</li>
+  <li>Booter le portable.</li>
+  <li>L'adresse Ethernet apparaît généralement sur l'écran.</li>
+</ol>
+
+<p>Noter cette adresse Ethernet:</p>
+
+<div class="aremplir" style="height: 3em">
+</div>
+
+<h3>Aspect logiciel</h3>
+
+<h4>Pilote de la carte réseau dans le noyau Linux</h4>
+
+<ol>
+  <li>La commande <kbd>lspci</kbd> liste les périphériques PCI présents dans
+  une machine.  Noter le modèle de composant Ethernet présent dans votre
+  portable:
+
+  <div class="aremplir" style="height: 2em" />
+
+  </li>
+
+  <li>La liste des pilotes de cartes réseau pris en charge par le noyau Linux
+  est visible dans le répertoire
+  <tt>/lib/modules/VERSION_DU_NOYAU/kernel/drivers/net/</tt>.  La liste des
+  drivers actuellement chargés dans le noyau est visible avec la commande
+  <kbd>lsmod</kbd>.  Trouver le nom du driver utilisé par le noyau pour votre
+  carte réseau.</li>
+
+  <li>Débrancher puis rebrancher le câble réseau.  La commande <kbd>dmesg</kbd>
+  affiche tous les messages récemment issus du noyau Linux.  Quels messages
+  sont affichés par le driver de la carte réseau ?
+
+  <div class="aremplir" style="height: 2em" />
+
+  </li>
+
+  <li>Avec quel débit Ethernet fonctionne la carte réseau de votre portable ?
+  <div class="aremplir" style="height: 2em" />
+  </li>
+
+  <li>Dans quel mode duplex fonctionne-t-elle ?
+
+  <div class="aremplir" style="height: 2em" />
+
+  </li>
+
+  <li>Ces informations peuvent aussi être obtenues grâce à la commande
+  <kbd>mii-tool</kbd>.  Noter ces informations:
+
+  <div class="aremplir" style="height: 2em" />
+
+  </li>
+
+</ol>
+
+<h4>Système d'exploitation</h4>
+
+<p>La commande <kbd>ifconfig</kbd> permet de savoir quelles interfaces
+réseau sont configurées sur une machine.  Elle affiche aussi les adresses
+Ethernet des cartes réseau Ethernet configurées.</p>
+
+<p>
+Remplir le tableau suivant:
+</p>
+
+<table class="aremplir">
+  <tr>
+    <th style="width: 20%" />
+    <th style="width: 20%">Nom de l'interface Ethernet</th>
+    <th style="width: 40%">Adresse physique/Ethernet/MAC de l'interface</th>
+    <th style="width: 20%">Fabricant de la carte réseau</th>
+  </tr>
+
+  <tr>
+    <td>votre portable</td>
+    <td />
+    <td />
+    <td />
+  </tr>
+
+  <tr>
+    <td>serveur SSH <tt>transit</tt></td>
+    <td />
+    <td />
+    <td />
+  </tr>
+
+</table>
+
+<p>Pour la dernière colonne, consulter le fichier <tt>/usr/share/wireshark/manuf</tt>.</p>
+
+<ol>
+  <li>Vérifier que l'adresse MAC donnée par le système d'exploitation est la
+  même que celle donnée par la machine lors de son démarrage (section 2.1).</li>
+
+  <li>Que signifie l'acronyme MTU ?
+  <div class="aremplir" style="height: 2em">
+  </div>
+  </li>
+
+  <li>Quelle est sa valeur sur toutes les machines ?
+  <div class="aremplir" style="height: 2em">
+  </div>
+  </li>
+
+  <li>Comment interpréter sa valeur ? (Penser au format de la trame Ethernet)
+  <div class="aremplir" style="height: 4em">
+  </div>
+  </li>
+</ol>
+
+<h2>Observation d'un commutateur Ethernet</h2>
+
+<p>Deux types de commutateurs sont utilisés:</p>
+<ul>
+  <li>des commutateurs simples pour les salles de TP</li>
+  <li>1 commutateur/routeur central qui sera étudié dans la
+  section suivante</li>
+</ul>
+
+<p>Il est possible d'interroger à distance l'état de ces commutateurs.  Pour
+cela, ils sont munis d'adresses IP.  Celui de la salle 017 a pour adresse
+192.168.15.2.  Deux interfaces de consultation existent:</p>
+
+<ul>
+  <li>la commande <kbd>telnet <em>adresse_IP_du_commutateur</em></kbd>.  Pour
+  connaître quelques commandes disponibles, utiliser l'aide en ligne (commande
+  <kbd>help</kbd>).  Pour gagner du temps, il est conseillé de passer en mode
+  menu en tapant la commande <kbd>menu</kbd> puis de naviguer avec les flèches
+  du clavier. </li>
+
+  <li>un navigateur Web et l'URL <tt>http://ADRESSE_IP_DU_COMMUTATEUR</tt>.
+  Cette interface utilise une applet Java.</li>
+</ul>
+
+<p>Pour accéder au commutateur, un nom et un mot de passe sont demandés.  Pour
+les 2 interfaces, le nom à utiliser est vide (soit il n'est pas demandé, soit
+il ne faut rien rentrer) et le mot de passe est <tt>cfmr</tt>.  </p>
+
+<h3>Observation</h3>
+
+<p>Pour l'un des commutateurs, déterminer les informations demandées dans
+le tableau suivant.  Certaines informations sont à relever directement;
+d'autres sont à calculer.</p>
+
+<p>Certaines informations sont plus faciles à obtenir avec une interface ou
+avec l'autre, donc utiliser les deux en parallèle !  Dans l'interface telnet,
+les informations demandées sont dans le menu "<em>Status and Counters...</em>".
+Dans l'interface Web, les informations demandées sont regroupées dans les 2
+premiers onglets (<em>Identity</em> et <em>Status</em>) </p>
+
+<div class="newpage" />
+
+<table class="aremplir">
+  <tr>
+    <th style="width: 60%" />
+    <th>192.168.15.2</th>
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nom du commutateur</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nom du modèle du commutateur</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Localisation du commutateur</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nom de la personne responsable du commutateur</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Durée de fonctionnement depuis le dernier démarrage</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports total</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports pouvant être utilisés à 10 ou 100 Mb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports pouvant être utilisés à 100 ou 1000 Mb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports occupés</td>
+    <td />
+ </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports effectivement utilisés à 10 Mb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports effectivement utilisés à 100 Mb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de ports effectivement utilisés à 1 Gb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre d'adresses MAC dans la table de commutation pour un port à 100 Mb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Numéro de port où l'on retrouve l'adresse MAC de votre portable</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre d'adresses MAC dans la table de commutation pour un port à 1 Gb/s</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de trames reçues sur le port le plus utilisé (Pkts Rx)</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre de trames émises sur le port le plus utilisé (Pkts Tx)</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre d'octets reçus sur le port le plus utilisé (Bytes Rx)</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre d'octets émis sur le port le plus utilisé (Bytes Tx)</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Taille moyenne des trames émises (à calculer)</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Taille moyenne des trames reçues (à calculer)</td>
+    <td />
+  </tr>
+
+  <tr>
+    <td style="font-size: small">Nombre moyen d'octets circulant par jour (à calculer)</td>
+    <td />
+  </tr>
+</table>
+
+<h3>Interprétation</h3>
+
+<ol>
+  <li>Combien de stations pourrait-on rajouter sans changer ou rajouter de commutateur ?
+  <div class="aremplir" style="height: 2em" />
+  </li>
+
+  <li>Expliquer la différence entre les nombres d'adresses MAC dans les tables
+  de commutation des ports à 100Mb/s et 1Gb/s.
+  <div class="aremplir" style="height: 5em" />
+  </li>
+
+  <li>Expliquer pourquoi le port le plus utilisé est un port à 1Gb/s.
+  <div class="aremplir" style="height: 3em" />
+  </li>
+</ol>
+
+<h2>Capture de traffic réseau</h2>
+
+<p>Pour cela nous allons utiliser le logiciel wireshark qui permet de capturer
+et d'analyser des trames.</p>
+
+<h3>DNS et TCP</h3>
+
+<ol>
+  <li>Lancer le logiciel <kbd>wireshark</kbd> depuis un shell root.</li>
+
+  <li>Cliquer sur le menu "Capture -&gt; Interfaces".  Une boîte de dialogue doit
+  apparaître.</li>
+
+  <li>Dans la boîte de dialogue, appuyer le bouton "Start" correspondant à
+  l'interface <tt>eth0</tt>.  Une fenêtre indiquant que la capture est en cours
+  doit apparaître.</li>
+
+  <li>Depuis un navigateur, consulter une page Web, puis fermer le
+  navigateur.</li>
+
+  <li>Appuyer sur le bouton "Stop" dans la fenêtre de capture.</li>
+
+  <li>Mettre un filtre pour n'afficher des les paquets UDP et trouver les
+  requêtes DNS et les réponses qui ont été faites.</li>
+
+  <li>Quel numéro de port utilise le DNS ?</li>
+
+  <li>Comparer les TTL d'une requête et d'une réponse.  Interpréter.</li>
+
+  <li>Mettre un filtre pour n'afficher que les requêtes HTTP et sélectionner
+  une trame contenant une requête HTTP.</li>
+
+  <li>Cliquer sur le menu "Analyse -&gt; Follow TCP Stream".  La requête du client
+  et la réponse du serveur doivent alors apparaître en clair dans une nouvelle
+  fenêtre, avec 2 couleurs différentes.</li>
+</ol>
+
+<h3>ARP et ICMP</h3>
+
+<ol>
+  <li>Lancer une nouvelle capture, faire un ping vers le portable de votre
+  voisin puis arrêter la capture.</li>
+
+  <li>Retrouver le fonctionnement du protocole ARP.</li>
+
+  <li>Quels sont les types de paquets ICMP utilisés par ping.</li>
+</ol>
+
+<p>
+<a href="http://validator.w3.org/check/referer">
+<img src="./IUT2 Grenoble - LP SIL - EF4_files/valid-xhtml11" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/">
+<img src="./IUT2 Grenoble - LP SIL - EF4_files/vcss" alt="Valid CSS!" /></a>
+<a href="http://transit.iut2.upmf-grenoble.fr/cgi-bin/wdg-html-validator.pl?url=referer&warnings=yes">
+<img src="./IUT2 Grenoble - LP SIL - EF4_files/wdglogo-small.png" alt="Check with the WDG validator" /></a>
+</p>
+
+</body>
+</html>

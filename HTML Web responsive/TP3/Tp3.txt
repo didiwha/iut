@@ -1,0 +1,9 @@
+Partie 1 :
+	la balise Style en entête de la page html sert à définir la feuille de style utilisé pour la page HTML courante
+	
+$
+	Car la balise HEAD est définit comme étant Violette
+$
+	La différence est dans la definition du details qui définit des colonnes
+$
+	
